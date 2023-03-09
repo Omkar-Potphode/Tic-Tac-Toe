@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-wrapper{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.left-text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #4D6985;
+}
+
+.left-btn{
+    margin-top: 100px;
+    width: 240px;
+    height: 60px;
+    border: 2px solid #4D6985;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 200px;
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.left-btn:hover,
+.left-btn:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.left-btn:active {
+    background: var(--color);
+    color: #fff;
+}
+
+.img_start{
+    height: 350px;
+    width: 350px;
+    margin-right: 200px;
+}
