@@ -1,3 +1,7 @@
+#Tic-Tac-Toe Game using React js
+
+Tic Tac Toe is a simple game played on a 3x3 board. Two players take turns placing either an "X" or an "O" on the board until one player gets three in a row (either horizontally, vertically, or diagonally) or all of the spaces are filled.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
